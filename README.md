@@ -9,4 +9,4 @@ Laravel Lumen is a stunningly fast PHP micro-framework for building web applicat
 
 ## Documentation
 
-Documentation for the project can be found on the [Postman Publisher](https://documenter.getpostman.com/view/1328435/SztA7U6h).
+Documentation for the project can be found on the [Postman](https://documenter.getpostman.com/view/1328435/SztA7U6h).
