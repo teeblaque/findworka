@@ -14,7 +14,7 @@
 */
 
 $router->get('/', function () use ($router) {
-    return response()->json("Hello world", 200);
+    return response()->json("Hello findworka", 200);
 });
 
 
