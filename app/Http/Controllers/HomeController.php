@@ -135,7 +135,7 @@ class HomeController extends Controller
             if (count($character) > 0) {
                 return response()->json(['success' => true, 'data' => $character, 'total' => $character->count()], 200);
             } else {
-                return response()->json(['success' => false, 'msg' => 'No data'], 400);
+                return response()->json(['success' => false, 'msg' => 'No data'], 404);
             }
         } else {
             return response()->json(['success' => false, 'msg' => 'Internal server error'], 405);
@@ -148,7 +148,7 @@ class HomeController extends Controller
         if (count($comment) > 0) {
             return response()->json(['success' => true, 'data' => $comment], 200);
         } else {
-            return response()->json(['success' => false, 'msg' => 'No data'], 400);
+            return response()->json(['success' => false, 'msg' => 'No data'], 404);
         }
     }
 }
